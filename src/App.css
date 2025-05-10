@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@import "inter-ui/inter.css";
+
+@theme {
+  --font-satoshi: "Satoshi", sans-serif;
+  --font-inter: "Inter", "system-ui";
+  --font-jetbrains: "JetBrains Mono", serif;
+}
