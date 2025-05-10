@@ -4,8 +4,8 @@ A visualization playground used to render graphs or charts representing the Fibo
 
 # Installation
 
-* Clone this repo and once inside the root directory, paste the following - `npm install`
-* And paste this as well - `npm run dev`
+* Clone this repo and once inside the root directory, paste the following - `npm install` - to install necessary packages to ensure functionality of the app.
+* And paste this as well - `npm run dev` - to run the app locally.
 * Enjoys!
 
 # Modification to the localhost port - vite application
