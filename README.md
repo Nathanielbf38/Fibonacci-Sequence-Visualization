@@ -4,10 +4,10 @@ A visualization playground used to render graphs or charts representing the Fibo
 
 # Installation
 
-* Clone this repo and once inside the directory, paste the following - `npm install`
+* Clone this repo and once inside the root directory, paste the following - `npm install`
 * And paste this as well - `npm run dev`
 * Enjoys!
 
 # Modification to the localhost port - vite application
 
-If you aren't satisfied with the localhost port or just want to change it; locate the `vite.config.ts` file and assigns a four digits of your choice to the `port: your digit`.
+If you aren't satisfied with the localhost port or just want to change it then do this step. Locate the `vite.config.ts` file and assigns a four digits of your choice to the `port: your digit`.
