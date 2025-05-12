@@ -58,7 +58,7 @@ const Playground = (props: any) => {
                   return (
                     <span
                       onClick={() => {
-                        if (instanceGroup.length < 3) {
+                        if (instanceGroup.length < 3 ) {
                           setInstanceGroup([
                             ...instanceGroup,
                             instanceType.mode,
@@ -146,6 +146,9 @@ const Playground = (props: any) => {
               </div>
               <ColorSelector importedFunction={instanceColorHandler} />
             </div>
+          </div>
+          <div className="playground-gallery-no-instance-template-displayer">
+            {instanceGroup.length <= 0 && <span className="text-xs font-medium block text-center mt-[10%]">Damn, it looks so lonely in here...let's spawn an instance by clicking that button!</span>}
           </div>
           <div
             className={`playground-instance-gallery mt-8 flex flex-wrap gap-4 items-start  ${instanceGroup.length >= 3 && "justify-evenly"}`}
